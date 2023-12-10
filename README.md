@@ -1,5 +1,5 @@
-# ADA Template Website
-## Usage
+# Beers Across the Atlantic: Decoding Beer Preferences in North America and Europe
+## Webpage used for developing a story about the beer preferences in America and Europe
 1. Fork (copy) this repository by clicking the "Fork" button on the top right corner.
 2. Go to "Settings" -> "Pages" in your forked repository. Under "Branch" change "None" to "master" and click "Save".
 3. Edit the `_config.yml` file in your forked repository to change the site title (after `title:`) and description (after `description:`).
