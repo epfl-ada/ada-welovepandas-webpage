@@ -1,7 +1,7 @@
 # Beers Across the Atlantic
 ## Initiative
-**Beer**: :beer:
-the World’s Most Beloved Drink
+**Beer** :beer::
+</br>the World’s Most Beloved Drink
 
 It is accepted worldwide that **beer** is the "most beloved drink", but who is leading the competition? 
 </br>We would say Europe and America are the biggest beer consumers among all continents.
