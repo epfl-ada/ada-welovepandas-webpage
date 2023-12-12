@@ -1,9 +1,16 @@
-# Beers Across the Atlantic: Decoding Beer Preferences in North America and Europe
-## Webpage used for developing a story about the beer preferences in America and Europe
-1. Fork (copy) this repository by clicking the "Fork" button on the top right corner.
-2. Go to "Settings" -> "Pages" in your forked repository. Under "Branch" change "None" to "master" and click "Save".
-3. Edit the `_config.yml` file in your forked repository to change the site title (after `title:`) and description (after `description:`).
-4. Build your own page by editing this `README.md` (home page) and creating new `.md` files (other pages), formatting is done with standard [GitHub Markdown syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax), we provide an example file `example.md` in the repository.
-**Important**: Please include ```--- layout: default ---``` (the first three line in `example.md`) at the beginning of your every newly created `.md` file.
-5. Add your new `.md` files to the site by editing the `_config.yml` file in your forked repository. Under `navigation:` add a new pair of `- title:` and `url:`, and fill their value with your page name and `.md` file name. Remember to remove the `- title:` and `url:` pair for the example page.
-6. Go back to "Settings" -> "Pages" to find your website link.
+# Beers Across the Atlantic
+## Initiative
+**Beer** :beer:
+the World’s Most Beloved Drink
+
+It is accepted worldwide that **beer** is the "most beloved drink", but who is leading the competition? 
+</br>We would say Europe and America are the biggest beer consumers among all continents.
+
+But again, do Americans and Europeans drink the same beer types, or is there a beer attribute that makes a difference between this two big consumer groups?
+#### Let's investigate the beer preferences accross the Atlantic!
+
+## Description
+Using a larga dataset, which provides beer ratings and reviews on beers from people all around the world, we will investigate the difference in beer preferences accross Americans and Europeans, and try to find the reason behind it! Embracing the 14 beer general styles provided, which differ in characteristics as ABV, appearance, aroma, palate and taste, we expect to find interesting results. 
+
+We suspect that cultural dissimilarities among this two groups might lead to different inclinations when it comes to alcohol concentration in beers. Moreover, we will inspect the correlation of beer type with this inclination and we will deep into the evolution of the beer preferences between 2000 and 2017, hoping to find some difference among America and Europe.
+
