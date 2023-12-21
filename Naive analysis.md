@@ -22,4 +22,4 @@ _Beers with ABV lower than 5% or greater than 15% have fewer number of ratings. 
 Is there a correlation between preference and a specific beer style, known for higher ABV?
 
 Let's investigate this question:
-[Beer styles](/Beer%20styles)
+[Beer styles](/ada-welovepandas-webpage/Beer%20styles)
