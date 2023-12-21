@@ -2,14 +2,31 @@ theme: jekyll-theme-minimal
 title: Beers Across the Atlantic
 description: Decoding Beer Preferences in North America and Europe
 show_downloads: True
+
+# Plugins
 plugins:
   - jemoji
+
+# Navigation
 navigation:
   - title: Home
     url: /
   - title: Data sources
-    url: Data sources.md
+    url: '/Data sources'
   - title: Naive analysis
-    url: Naive analysis.md
+    url: '/Naive analysis'
   - title: Beer styles
-    url: Beer styles.md
+    url: '/Beer styles'
+
+# Exclusions
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
