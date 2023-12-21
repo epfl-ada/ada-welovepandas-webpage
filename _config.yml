@@ -1,22 +1,18 @@
-theme: jekyll-theme-minimal
+theme: bulma-clean-theme
 title: Beers Across the Atlantic
 description: Decoding Beer Preferences in North America and Europe
 show_downloads: false
 
 # Plugins
 plugins:
-  - jemoji
+  # TODO: Enable this at the end.
+  # - jemoji
+  - jekyll-remote-theme
 
-# Navigation
-navigation:
-  - title: Home
-    url: /
-  - title: Data sources
-    url: '/Data sources'
-  - title: Naive analysis
-    url: '/Naive analysis'
-  - title: Beer styles
-    url: '/Beer styles'
+# Global theme settings
+fixed_navbar: top
+hide_footer: false
+show_sidebar: false
 
 # Exclusions
 exclude:

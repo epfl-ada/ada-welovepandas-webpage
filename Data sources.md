@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: page
+title: Data source
+subtitle: "'Unveiling insights from a tapestry of data'"
+background: '/'
 ---
-
-# Data source
 
 The data we are working with was gathered from the following two websites about beer lovers:
 

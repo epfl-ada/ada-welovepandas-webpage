@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: page
+title: Naive analysis
+subtitle: "'Peeling back layers with a discerning eye'"
+background: '/assets/custom_graphics/gif/beer_loading_screen.gif'
 ---
-
-# Naive analysis
 
 Moving straightforward to our research question:
 
@@ -10,7 +11,7 @@ Moving straightforward to our research question:
 
 --->We investigate the average rating that EU and NA users give, for each ABV rounded percentage.
 
-![Avg_ABV](./graphics/plots/Avg_ABV.png)
+![Avg_ABV](./assets/custom_graphics/plots/Avg_ABV.png)
 
 - _It seems like NA tend to give better ratings in general_
 - _All ratings are higher for beers with higher ABV_
@@ -22,4 +23,4 @@ _Beers with ABV lower than 5% or greater than 15% have fewer number of ratings. 
 Is there a correlation between preference and a specific beer style, known for higher ABV?
 
 Let's investigate this question:
-[Beer styles](/Beer%20styles)
+[Beer styles](/Beer styles)

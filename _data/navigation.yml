@@ -1,0 +1,7 @@
+# Navigation
+- name: Data sources
+  link: '/Data sources'
+- name: Naive analysis
+  link: '/Naive analysis'
+- name: Beer styles
+  link: '/Beer styles'
