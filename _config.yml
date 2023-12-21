@@ -6,8 +6,8 @@ navigation:
   - title: Home
     url: /
   - title: Data sources
-    url: Data sources
+    url: Data sources.md
   - title: Naive analysis
-    url: Naive analysis
+    url: Naive analysis.md
   - title: Beer styles
-    url: Beer styles
+    url: Beer styles.md
