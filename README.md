@@ -1,5 +1,5 @@
 ---
-layout: full
+layout: default
 ---
 
 # Beers Across the Atlantic
@@ -10,7 +10,8 @@ layout: full
 the World’s Most Beloved Drink
 
 It is accepted worldwide that **beer** is the "most beloved drink", but who is leading the competition?
-<br>
+
+
 We would say Europe and America are the biggest beer consumers among all continents.
 
 But again, do Americans and Europeans drink the same beer types, or is there a beer attribute that makes a difference between this two big consumer groups?
