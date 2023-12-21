@@ -5,9 +5,5 @@ show_downloads: True
 navigation:
   - title: Home
     url: /
-  - title: Data sources
-    url: Data sources
-  - title: Naive analysis
-    url: Naive analysis
-  - title: Beer styles
-    url: Beer styles
+  - title: Example
+    url: example
