@@ -47,6 +47,8 @@ _When keeping the residuals, the second peak in Europe looks more like a plateau
 
 <br>
 
-<iframe width="800" height="600" frameborder="0" seamless="seamless" scrolling="no" src="/plots/html/peak_seasonality"></iframe>
+<iframe width="800" height="600" frameborder="0" seamless="seamless" scrolling="no" src="/plots/html/peak_seasonality.html"></iframe>
+
+<br>
 
 **Note:** Maybe looking at the seasonality of beer styles will help us understand its cause better? -> [Beer style seasonality](/ada-welovepandas-webpage/Beer%20style%20seasonality)
