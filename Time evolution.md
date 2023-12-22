@@ -24,7 +24,7 @@ That's not all! We discovered another very interesting thing!
 
 Look at the shape of the time series! It looks periodical!
 
-This gives an insight for the seasonality of this magical drink. Even though it is more noticable for North Americans, ABV has peaks every start of a new year and a low peak each summer, on both continents. 
+This gives an insight for the seasonality of this magical drink. Even though it is more noticeable for North Americans, ABV has peaks every start of a new year and a low peak each summer, on both continents.
 
 What about the styles? Do beer styles also have this characteristic?
 
@@ -34,6 +34,6 @@ _It turns out that the answer is yes! Some beer styles, like Specialty Beers, sh
 
 But why is the shape of the time series different for European users? Why is it not that clear, as the one for North American users?
 
-If you want to know more -> take a look at the [Seasonality](/Seasonality)
+If you want to know more -> take a look at the [Seasonality](/ada-welovepandas-webpage/Seasonality)
 
-`Note 1: The fluctuations present in the first few years are not relevant for observation. It is possible that the reason behind this noise is the very few users of both BeerAdvocate and RateBeer at the begining of their existance. As the popularity of this websites grew, and more users started to register, the curve started to take its representative shape.`
+`Note 1: The fluctuations present in the first few years are not relevant for observation. It is possible that the reason behind this noise is the very few users of both BeerAdvocate and RateBeer at the beginning of their existence. As the popularity of this websites grew, and more users started to register, the curve started to take its representative shape.`

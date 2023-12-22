@@ -47,4 +47,4 @@ _When keeping the residuals, the second peak in Europe looks more like a plateau
 
 <br>
 
-**Note:** Maybe looking at the seasonality of beer styles will help us understand its cause better? -> [Beer style seasonality](/Beer%20style%20seasonality)
+**Note:** Maybe looking at the seasonality of beer styles will help us understand its cause better? -> [Beer style seasonality](/ada-welovepandas-webpage/Beer%20style%20seasonality)

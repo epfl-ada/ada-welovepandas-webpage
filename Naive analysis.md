@@ -26,4 +26,4 @@ Another question arises out of curiosity:
 
 Let's investigate this question:
 
-[Beer styles](/Beer%20styles)
+[Beer styles](/ada-welovepandas-webpage/Beer%20styles)
