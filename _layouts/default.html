@@ -12,6 +12,9 @@
   <body>
     <div class="wrapper">
       <header>
+        <!-- Add a header image -->
+        <img src="{{ '/assets/img/header-image.jpg' | relative_url }}" alt="Header Image">
+
         <h1>{{ site.title | default: site.github.repository_name }}</h1>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
