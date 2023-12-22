@@ -12,6 +12,6 @@ Our analysis provides a detailed snapshot of how beer preferences have uniquely 
 
 This analysis offers a comprehensive look into the dynamics of the beverage market and consumer behavior, highlighting the evolving relationship between beer styles, ABV, and regional preferences. For further research, we can explore the factors driving these trends, the role of craft beers in these changes, and how these preferences might continue to evolve.
 
-And after all the analysis and statistics we can finish our project with CHEERS!
+And after all the analysis and statistics we can finish our current investigation with CHEERS!
 
 <iframe src="https://giphy.com/embed/L0BKzeibXgQSm8tJAi" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/cheers-drinks-happyhour-L0BKzeibXgQSm8tJAi"></a></p>
