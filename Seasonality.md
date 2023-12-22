@@ -27,7 +27,7 @@ _When keeping the residuals, the second peak in Europe looks more like a plateau
 
 <div style="display: flex; align-items: center; background-color: #f8f8f8; border-radius: 8px; padding: 15px; margin-top: 15px;">
     <div style="flex: 1;">
-        **Have you ever heard of St. Patrick's Day?**
+        <bold>Have you ever heard of St. Patrick's Day?</bold>
         <br><br>
         - It is an Irish traditional holiday, taking place in March.
         This might be the reason for the second peak appearing in spring!
