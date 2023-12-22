@@ -51,7 +51,7 @@ _When keeping the residuals, the second peak in Europe looks more like a plateau
 
 Since Guinness, and stouts in general, are rather on the strong side of beer spectrum, an increase in consumption could easily spark a peak in the ABV pattern.
 
-In very a simple approach to investigate this, we decided to decompose the seasonality into Fourier modes by running a simple discrete Fourier transform over it. Naturally converting from frequency space to periodicity space allows to easily filter beer styles that show a significant mode corresponding to a 12-month period. Comparing the amplitudes, and accounting in the popularity of the beer style in addition to extracting the phase shift of the peaks allows us to gain deeper insight on what the seasonality is composed of. The result is shown below
+In very a simple approach to investigate this, we decided to decompose the seasonality of each beer style into Fourier modes by running a simple discrete Fourier transform over it. Naturally converting from frequency space to periodicity space allows to easily filter beer styles that show a significant mode corresponding to a 12-month period. Comparing the amplitudes, and accounting in the popularity of the beer style in addition to extracting the phase shift of the peaks allows us to gain deeper insight on what the seasonality is composed of. The result is shown below
 <br>
 
 <iframe width="800" height="600" frameborder="0" seamless="seamless" scrolling="no" src="./plots/html/peak_seasonality.html"></iframe>
