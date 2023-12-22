@@ -4,7 +4,7 @@ layout: default
 
 # Seasonality
 
-### You must have heard of Oktoberfest :thinking_face:
+**You must have heard of Oktoberfest** :thinking_face:
 
 We suspect that the difference in the trendline of American and European ratings is due to this big event taking place in late September and the first weekend of October. Oktoberfest, is in fact the largest beer festival in the world!
 
