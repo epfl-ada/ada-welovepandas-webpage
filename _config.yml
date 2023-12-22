@@ -15,8 +15,8 @@ navigation:
     url: '/Data sources'
   - title: Naive analysis
     url: '/Naive analysis'
-  - title: Seasonality analysis
-    url: '/Seasonality analysis'
+  - title: Statistical analysis
+    url: '/Statistical analysis'
   - title: Beer styles
     url: '/Beer styles'
   - title: Time evolution
