@@ -22,8 +22,6 @@ navigation:
     url: '/Time evolution'
   - title: Seasonality
     url: '/Seasonality'
-  - title: Beer style seasonality
-    url: '/Beer style seasonality'
   - title: Conclusion
     url: '/Conclusion'
 

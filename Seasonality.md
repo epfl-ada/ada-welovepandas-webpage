@@ -50,14 +50,15 @@ _When keeping the residuals, the second peak in Europe looks more like a plateau
 
 ### Let's address both of the _suspects_
 
-The seasonal component, particularly its phases, is crucial.
-Assessing all beer styles along with their phases enables us to identify which styles contribute to seasonality and during which phase (time of the year).
+Since Guinness, and stouts in general, are rather on the strong side of beer spectrum, an increase in consumption could easily spark a peak in the ABV pattern.
 
-#### Fourier Analysis for Europe
+In very a simple approach to investigate this, we decided to decompose the seasonality of each beer style into Fourier modes by running a simple discrete Fourier transform over it. Naturally converting from frequency space to periodicity space allows to easily filter beer styles that show a significant mode corresponding to a 12-month period. Comparing the amplitudes, and accounting in the popularity of the beer style in addition to extracting the phase shift of the peaks allows us to gain deeper insight on what the seasonality is composed of.
+
+#### Analysis for Europe
 
 ![Fourier analysis for EU](./plots/fft_beer_style_eu.png)
 
-#### Fourier Analysis for North America
+#### Analysis for North America
 
 ![Fourier analysis for NA](./plots/fft_beer_style_na.png)
 
@@ -89,7 +90,7 @@ In the next step, we summarize and display our findings, combining phase informa
   - EU and NA share similar contributing styles, but with variations in order and magnitude.
   - Wheat beers or Hybrids contribute more in EU than in NA.
 
-An important factor is missing: **The phase**. We don't yet see which contribution peaks in ABV at what time of the year! To present the final result of seasonality, we intend to summarize all findings in one plot.
+We don't yet see which contribution peaks in ABV at what time of the year! To present the final result of seasonality, we intend to summarize all findings in one plot.
 
 #### Peak Seasonality Plot
 
@@ -108,9 +109,18 @@ To recall the initial seasonality, we highlight the off-peak contributions from 
 
 ![Seasonality highlighted in May and October](./plots/seasonality_may_oktober_highlighted.png)
 
-- **Observation:**
-  - EU shows a clear plateau each May.
-  - Oktoberfest is barely noticeable here.
-  - North America often holds the peak value longer, due to styles peaking their contribution in February as well.
+<br>
 
-#### So regarding all the above we can release the suspects <sub>for now</sub>.
+There are a few observations we make from this:
+
+- Multiple beer styles show seasonal variation, most notably in both continents are... specialty beers.. They are truly special.
+
+- In both continents, as we suspected early on, a lot of styles contribute to seasonality with peak ABV values in Winter. This accounts for a whopping $\sim 80$% of the seasonality in North America and around $65$% in Europe.
+
+- We even can confirm our first suspect! **Oktoberfest** shows its face (or peak) on both continents each October in the form of a contribution from Dark Lagers, which contains among others **Märzen** as well as **Oktoberfestbeer**! Although the overall contribution to the total is only $\sim 5$
+
+- We also observe styles such as IPA, which showed marginal seasonality overall to have a larger contribution in America and pretty much none in Europe. We can recall here that due to the huge popularity in North America, even a slight seasonal change in ABV can have a strong overall effect if enough people drink (and rate) it.
+
+- To our disappointment, St. Patricksday could not be confirmed. We observe the second peak in May, which is too late, and in the form of **Strong Ales** and **Porters** which peak only in Europe each year, a group of rather strong beers seems to gain popularity each May of every year. 
+
+#### So regarding all the above we can release the suspects <sub>for now</sub>
