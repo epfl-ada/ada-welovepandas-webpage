@@ -3,5 +3,11 @@
   link: '/Data sources'
 - name: Naive analysis
   link: '/Naive analysis'
+- name: Statistical analysis
+  link: '/Statistical analysis'
 - name: Beer styles
   link: '/Beer styles'
+- name: Time evolution
+  link: '/Time evolution'
+- name: Seasonality
+  link: '/Seasonality'
