@@ -23,6 +23,8 @@ navigation:
     url: '/Time evolution'
   - title: Seasonality
     url: '/Seasonality'
+  - title: Beer style seasonality
+    url: '/Beer style seasonality'
 
 # Exclusions
 exclude:
