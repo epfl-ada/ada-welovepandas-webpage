@@ -4,7 +4,7 @@ description: Decoding Beer Preferences in North America and Europe
 show_downloads: false
 
 # Markdown renderer
-markdown: GFM
+markdown: gfn
 
 # Plugins
 plugins:
