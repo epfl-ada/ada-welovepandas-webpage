@@ -22,7 +22,7 @@ We investigate the average rating that EU and NA users give for each ABV rounded
 
 We also want to investigate if the number of ratings per rounded ABV percentage has to do something with the average rating per ABV?
 
-![Count beers with certain ABV](./plots/count_abv.png)
+![Count beers with certain ABV](./plots/abv_distribution.png)
 
 > **Insight:**
 > Beers with ABV lower than 5% or greater than 15% have fewer numbers of ratings. If only a few users rated and graded them well, this results in a better average rating for the specific ABV.
