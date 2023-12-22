@@ -122,6 +122,6 @@ There are a few observations we make from this:
 
 - We even can confirm our first suspect! **Oktoberfest** shows its face (or peak) on both continents each October in the form of a contribution from Dark Lagers, which contains among others **Märzen** as well as **Oktoberfest beer**! Although the overall contribution to the total is only ~5.
 
-- We also observe styles such as IPA, which showed marginal seasonality overall to have a larger contribution in America and pretty much none in Europe. We can recall here that due to the huge popularity in North America, even a slight seasonal change in ABV can have a strong overall effect if enough people drink (and rate) it.
+- We also observe styles such as **IPA**, which showed **marginal seasonality** overall to have a larger contribution in America and pretty much none in Europe. We can recall here that due to the huge popularity in North America, even a slight seasonal change in ABV can have a strong overall effect if enough people drink (and rate) it.
 
-- To our disappointment, St. Patrick's day could not be confirmed. We observe the second peak in May, which is too late, and in the form of **Strong Ales** and **Porters** which peak only in Europe each year, a group of rather strong beers seems to gain popularity each May of every year.
+- To our disappointment, **St. Patrick's day could not be confirmed**. We observe the **second peak in May**, which is too late, and in the form of **Strong Ales** and **Porters** which peak only in Europe each year, a group of rather strong beers seems to gain popularity each May of every year.
