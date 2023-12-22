@@ -18,7 +18,6 @@ Do you know this guy?
 
 <img src="./gifs/stpatrick.gif" width=300px height=300px alt="St. Patrick">
 
-<br/>
 
 **TODO: make image smaller**
 
