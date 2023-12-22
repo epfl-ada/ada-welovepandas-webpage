@@ -50,76 +50,61 @@ _When keeping the residuals, the second peak in Europe looks more like a plateau
 
 ### Let's address both of the _suspects_
 
-The seasonal component, particularly its phases, is crucial. Employing Fourier Analysis, we perform a Fourier transform to extract the mode corresponding to the annual cycle. Given the monthly data, this corresponds to a periodicity of 12 months (after frequency transformation).
+The seasonal component, particularly its phases, is crucial. Utilizing Fourier Analysis, we perform a Fourier transform to extract the mode corresponding to the annual cycle. Given the monthly data, this corresponds to a periodicity of 12 months (after frequency transformation).
 
 Assessing all beer styles along with their phases enables us to identify which styles contribute to seasonality and during which phase (time of the year).
 
-Fourier analysis for **Europe**:
+#### Fourier Analysis for Europe:
 
 ![Fourier analysis for EU](./plots/fft_beer_style_eu.png)
 
-Fourier analysis for **North America**:
+#### Fourier Analysis for North America:
 
 ![Fourier analysis for NA](./plots/fft_beer_style_na.png)
 
-<br>
-
 - **Observation:**
-  - EU data is overall much noisier, which we already expected in the initial seasonality plot, this leads (since we normalised to 1) to reduced peaks, which does not matter here, but this normalisation allows to filter the very noisy data out that does not have a main peak in a yearly cycle
-
-  - We clearly see that only few styles contribute to seasonality, hence this motivates to filter those styles that do not show significant differences at 12 months period
-
-  - Interestingly, there are beers like e.g. **Dark Lagers** that show some mode at 10 months but not (or only marginal) at 12 months.
-
-It makes sense to filter out all beer styles that do not seem to contribute to annual periodicity.
+  - EU data is overall much noisier, as expected from the initial seasonality plot, resulting in reduced peaks. This normalization allows us to filter out very noisy data without a main peak in a yearly cycle.
+  - Only a few styles contribute significantly to seasonality, motivating the filtering of styles without significant differences at a 12-month period.
+  - Some beers, like **Dark Lagers**, show a mode at 10 months but not (or only marginally) at 12 months.
 
 ![Normalised FT of filtered beer styles](./plots/normalised_fft_eu_na.png)
 
 - **Observation:**
-The FT-plots look much cleaner already now that only significant contributors to annual periodicity remain:
-  - We still see some additional modes, that we do not further investigate here (because we are mainly interested in annual cycle), notably in Northern America with Dark Lagers at 8-, and 10-month cycles.
-  - There seem to be more beers in NA with significant seasonality than EU
-  - Considering the normalised FT values allowed us to consider e.g. Pale Lagers as well, even though the amplitude is small at 12 months, it stands out significantly compared to any other mode due to very low noise in the data.
+  - The FT plots look cleaner with only significant contributors to annual periodicity remaining.
+  - There are additional modes, not further investigated here, notably in North America with Dark Lagers at 8- and 10-month cycles.
+  - NA has more beers with significant seasonality than EU.
 
-In a next step we want to properly summarise and display our findings, also combining the phase information as well. We start by creating new data frame's that contain all FFT data points of all styles for Europe and North America.
+In the next step, we summarize and display our findings, combining phase information.
+
+#### Beer Style Contributors of Seasonal Component:
 
 ![Beer style contributors of seasonal component](./plots/contributors_beer_styles.png)
 
-This is already quite interesting - note though that we did the approximation that only the here considered beer styles contribute to seasonality at all (which is reasonable though when we consider the peaks below the chosen threshold as residual noise)!
-
 - **Observation:**
-  - Specialty beer contributes the most to seasonality, due to it's huge seasonal effect
+  - **Specialty Beer** contributes the most to seasonality, given its huge seasonal effect.
+  - Styles like **IPA** show a remarkable contribution to seasonality in North America.
+  - EU and NA share similar contributing styles, but with variations in order and magnitude.
+  - Wheat beers or Hybrids contribute more in EU than in NA.
 
-  - Beers such as IPA show remarkable contribution to seasonality in North America, even though they do not show a very high seasonal mode, but the huge weight due to its popularity (reflected in # of reviews) even a marginal seasonality can contribute a lot to the total (we observe similar effects in Pale Lagers f.e.)
+An important factor is missing: **The phase**. We don't yet see which contribution peaks in ABV at what time of the year! To present the final result of seasonality, we intend to summarize all findings in one plot.
 
-  - We observe that it's similar styles contribute to seasonality in EU and NA, even though fewer in EU overall
-
-  - Also it's not the same order of contribution in EU and NA, wheat beers or Hybrids contribute much more in EU than in NA for example
-
-An important factor is missing here: **The phase**. We do not see yet which contribution peaks in ABV at what time of year!
-
-To present the final result of seasonality, we intend to summarise all findings in one plot.
+#### Peak Seasonality Plot:
 
 <iframe width="800" height="600" frameborder="0" seamless="seamless" scrolling="no" src="./plots/html/peak_seasonality.html"></iframe>
 
 - **Observation:**
-  - $\approx$ 80% of the seasonal contribution in North America are peaking in the winter months (Dec.-Feb.), in the EU it's only around 65%. As we see, North America in most years has a higher winterly peak than Europe and does not flatten down as quickly as Europe, since we multiple styles contributing to higher ABV until February;
+  - Approx. 80% of the seasonal contribution in North America peaks in the winter months (Dec.-Feb.), compared to around 65% in Europe.
+  - The effect of **Oktoberfest** is visible with a peak contribution from Dark Lagers each October in Europe.
+  - Europe has a second peak in May, driven by Porters and Strong Ales.
+  - This second peak seems to be the main difference in seasonality patterns between Europe and North America.
 
-  - We observe **the effect of Oktoberfest**! Each year in October we see a peak contribution from Dark Lagers, which contain typical Oktoberfest beers such as Märzen. This however is hardly visible in the annual pattern because we're in transition from lower summer ABV towards higher Winter, and the contribution is only $\approx 5$%;
-
-  - Europe has a second peak in May, where we see sort of a second small peaking or sort of a Plateau that we do not observe in North America. This seems to be due to Porters and Strong Ales contributing $\approx$ 28% of EU's seasonality, whereas this effect is marginal in North America with 13% from stouts in May and Porters in June;
-
-  - It seems this is the main culprit that accounts for the quite different seasonality pattern in Europe.
-
-To recall the initial seasonality we plot it once more here and highlight the off-peak contributions from Porters (EU only) and Dark Lagers.
+To recall the initial seasonality, we highlight the off-peak contributions from Porters (EU only) and Dark Lagers.
 
 ![Seasonality highlighted in May and October](./plots/seasonality_may_oktober_highlighted.png)
 
 - **Observation:**
   - EU shows a clear plateau each May.
-
   - Oktoberfest is barely noticeable here.
-
   - North America often holds the peak value longer, due to styles peaking their contribution in February as well.
 
 #### So regarding all the above we can release the suspects <sub>for now</sub>.
