@@ -2,10 +2,11 @@ theme: jekyll-theme-minimal
 title: Beers Across the Atlantic
 description: Decoding Beer Preferences in North America and Europe
 show_downloads: false
+logo: /assets/img/logo.jpg
 
 # Plugins
 plugins:
-  # - jemoji
+  - jemoji
 
 # Navigation
 navigation:

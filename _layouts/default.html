@@ -12,8 +12,9 @@
   <body>
     <div class="wrapper">
       <header>
-        <!-- Add a header image -->
-        <img src="{{ '/assets/img/header-image.jpg' | relative_url }}" alt="Header Image">
+        {% if site.logo %}
+          <img src="{{site.logo | relative_url}}" alt="Logo" />
+        {% endif %}
 
         <h1>{{ site.title | default: site.github.repository_name }}</h1>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
