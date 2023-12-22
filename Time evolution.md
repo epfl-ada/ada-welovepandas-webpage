@@ -6,11 +6,11 @@ layout: default
 
 Diving deeper and deeper into this data, made us question if the tendency for beers with higher ABV has increased over time. 
 
-Do Amricans or Europeans like beers with more alcohol as time goes by?
+Do Americans or Europeans like beers with more alcohol as time goes by?
 
 Let's take a look at this plot:
 
-![Avg_ABV](./plots/abv_time.png)
+![ABV across time](./plots/abv_time.png)
 
 _It looks like it is true! There is a slight evolution of the ABV over time!_
 </br>_The graph clearly shows that generally North American consumers drink stronger beers on average than European._
