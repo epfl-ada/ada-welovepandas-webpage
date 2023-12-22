@@ -19,9 +19,9 @@ From the graph above, we can conclude the following points:
 
 ---
 
-### Question 1: What are the suspects which are the reason for seasonality?
+### Question: What are the suspects which are the reason for seasonality?
 
-#### Oktoberfest <sup>Suspect 1</sup>
+### Oktoberfest <sup>Suspect 1</sup>
 
 We suspect that the difference in the seasonality pattern of American and European ratings might be due to significant beer events that take place in Europe, such as **Oktoberfest**, which is, in fact, the world's largest beer festival and takes place in late September and the first weekend of October.
 
@@ -31,7 +31,7 @@ To be sure, we will take a closer look at the trend and the seasonality (includi
 
 _When keeping the residuals, the second peak in Europe looks more like a plateau, where North America seems to drop more quickly._
 
-#### St. Patrick's Day <sup>Suspect 2</sup>
+### St. Patrick's Day <sup>Suspect 2</sup>
 
 <div style="display: flex; align-items: center; margin-top: 15px;">
     <div style="flex: 1;">
@@ -48,5 +48,3 @@ _When keeping the residuals, the second peak in Europe looks more like a plateau
 <br>
 
 **Note:** Maybe looking at the seasonality of beer styles will help us understand its cause better? -> [Beer style seasonality](/Beer%20style%20seasonality)
-
-To analyze the contributions and phases of the seasonality pattern more, we will further use Fourier Analysis -> [FT seasonality analysis](/FT%20analysis)
