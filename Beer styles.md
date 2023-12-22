@@ -18,7 +18,7 @@ Therefore let us consider how many reviews each style has on each of the regions
 
 ![Count by Beer Style](./plots/style_count.png)
 
-> _There are far more American Users in total, surpassing Europeans in each and every beer style, but the numbers already hint at different distributions and hence preferences for both continents. Let us take a look then at the relative distribution of the beer styles in each region
+> _There are far more American users in total, surpassing Europeans in each and every beer style, but the numbers already hint at different distributions and hence preferences for both continents. Let us take a look then at the relative distribution of the beer styles in each region._
 
 ![Average ABV](./plots/pie_chart.png)
 
@@ -28,6 +28,4 @@ Therefore let us consider how many reviews each style has on each of the regions
 
 ---
 
-## Conclusion
-
-Americans are huge fans of beer styles with high alcohol content (above 6%), such as **Stouts, Strong Ales, India Pale Ale, Porters, Bocks,** and **Dark Ales**. This is evident from the number of ratings, as well as the high average rating. **Strong Ales, Stouts,** and **India Pale Ale** have an average rating greater than 3.5, and the number of ratings for these beer styles is double, or even 4-5 times greater than the number of ratings Europeans submitted.
+Americans seem to be huge fans of beer styles with high alcohol content (above 6%), such as **Stouts, Strong Ales, India Pale Ale, Porters, Bocks,** and **Dark Ales**. This is evident from the number of ratings, as well as the high average rating. **Strong Ales, Stouts,** and **India Pale Ale** have an average rating greater than 3.5, and the number of ratings for these beer styles is double, or even 4-5 times greater than the number of ratings Europeans submitted.
