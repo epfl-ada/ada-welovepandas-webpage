@@ -25,6 +25,8 @@ navigation:
     url: '/Seasonality'
   - title: Beer style seasonality
     url: '/Beer style seasonality'
+  - title: Conclusion
+    url: '/Conclusion'
 
 # Exclusions
 exclude:
