@@ -67,7 +67,7 @@ After some filtering for months that contribute to seasonality, a normalised Fou
 ![Normalised FT of filtered beer styles](./plots/normalised_fft_eu_na.png)
 
 - **Observation:**
-  - We observe modes for each of those beer styles corresponding to a periodicity of 12 months $\rightarrow$ seasonality!
+  - We observe modes for each of those beer styles corresponding to a periodicity of 12 months **=>** seasonality!
   - There are additional modes from certain styles such as at 10 months, which we do not investigate further here, because 10-month periodicity does not correspond to how we define seasonality
   - There is much more noise in the European data than in the North American data overall
   - More beer styles are involved with seasonality in North America in comparison to Europe, also not necessarily the same beer styles contribute to seasonality!
