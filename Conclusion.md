@@ -4,13 +4,12 @@ layout: default
 
 # Conclusion
 
-In conclusion, our study reflects on the relationship between beer styles and ABV (Alcohol by Volume) preferences, revealing how these tastes have developed over time in both America and Europe. It's fascinating to see how cultural and seasonal factors can shape our choices in beer, with North Americans showing a preference for higher ABV beers during the winter, and Europeans showing varied tastes with spikes during Oktoberfest and in May.
+To summarise our findings: 
 
-From 2000 to 2017, we've observed a notable trend in both regions: a steady increase in the popularity of higher ABV beers. This shift could be a reflection of evolving tastes, a growing interest in craft beers known for their varied and higher ABV, or perhaps changes in social drinking patterns.
+We reflected on the differences between Europe and North America of ABV with regards to different beer styles, seasons and over time as a whole. It's fascinating to see how cultural and seasonal factors can shape our choices in beer, with people across the Atlantic showing a preference for stronger beers during the cold months as well as taking a likening into Oktoberfest style beers each October. On the other hand we observed some differences regarding overall preferences, while Europeans seem to like basic beers such as **Pale Lagers**, Americans rather prefer stronger, more refined beers such as **Indian Pale Ale's** or **stouts** more than Europeans do. This reflects in an overall higher ABV average consumption on the west side of the mid atlantic ridge. The seasonality is also affected by this disparity. Styles like **IPA** show significant seasonal contribution in America because it is far more popular there than in Europe, even though it does not show a high amplitude regarding a seasonal mode. 
 
-Our analysis provides a detailed snapshot of how beer preferences have uniquely evolved in each region over these seventeen years, underscoring the idea that beer preferences are deeply rooted in regional cultural nuances.
+From 2000 to 2017, we've observed a notable trend in both regions: a steady increase in the popularity of higher ABV beers in both regions, where the main difference seems the aforementioned overall increased ABV in North America.
 
-This analysis offers a comprehensive look into the dynamics of the beverage market and consumer behavior, highlighting the evolving relationship between beer styles, ABV, and regional preferences. For further research, we can explore the factors driving these trends, the role of craft beers in these changes, and how these preferences might continue to evolve.
 
 And after all the analysis and statistics we can finish our current investigation with CHEERS!
 
