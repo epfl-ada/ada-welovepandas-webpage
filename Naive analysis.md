@@ -4,6 +4,8 @@ layout: default
 
 # Naive analysis
 
+---
+
 Moving straightforward to our research question:
 
 **Do Americans prefer beers with higher alcohol content (ABV) than Europeans?**

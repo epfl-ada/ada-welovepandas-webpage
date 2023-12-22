@@ -4,6 +4,8 @@ layout: default
 
 # Beer styles
 
+---
+
 There are many specific beer styles, which have different alcohol content!
 
 Let's group them by general style and explore the ABV and users' preference correlation!
@@ -17,6 +19,8 @@ _Americans are dominating Europeans in the number of ratings per beer style... b
 
 ![Rating by beer style](./plots/style_rating.png)
 _nevertheless, the average rating per beer style between the two groups is comparable. American ratings are always higher, except when it comes to Porters! It looks like Europeans like this beer as much as Americans do!_
+
+---
 
 ## Conclusion
 

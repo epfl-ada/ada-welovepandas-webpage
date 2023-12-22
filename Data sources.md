@@ -4,6 +4,8 @@ layout: default
 
 # Data source
 
+---
+
 The data we are working with was gathered from the following two websites about beer lovers:
 
 - [RateBeer](https://www.ratebeer.com/)
