@@ -10,6 +10,6 @@ We reflected on the differences between Europe and North America of ABV with reg
 
 From 2000 to 2017, we've observed a notable trend in both regions: a steady increase in the popularity of higher ABV beers in both regions, where the main difference seems the aforementioned overall increased ABV in North America.
 
-And after all the analysis and statistics we can finish our current investigation with CHEERS!
+And after all the analysis we can finish our current investigation with CHEERS!
 
 ![CHEERS](./gifs/cheers.gif)
