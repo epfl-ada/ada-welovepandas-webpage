@@ -4,23 +4,36 @@ layout: default
 
 # Seasonality
 
-**You must have heard of Oktoberfest** :thinking_face:
+### Why is there a seasonality trend betweeen Europe and North America?
 
-We suspect that the difference in the trendline of American and European ratings is due to this big event taking place in late September and the first weekend of October. Oktoberfest, is in fact the largest beer festival in the world!
+We will try to answer this question by first decomposing the time series for each region into seasonality and trend:
 
-In order to investigate this speculation, we will first decompose the time series for each region into seasonality and trend:
+![Seasonality; NA vs EU](./plots/seasonality_na_vs_eu.png)
 
-![Seasonality NA vs EU](./plots/seasonality_na_vs_eu.png)
-_North America has a clear seasonality pattern, but Europe shows two main peaks each year. If one of them is Oktoberfest, as we supposed, what could be the second one??_
+- _We observe that both regions have a clear seasonality pattern. But in Europe there is more noise present and there is second peak, which seems to be appearing in spring. What could be the reason for this?_
+- _The trend seems to be linearly increasing for both continents, even though it is clearly higher for NA users._
 
-Do you know this guy? :four_leaf_clover:
-<br/>
+We suspect that the difference in the seasonality pattern of American and European ratings might be due to big beer events that take place in Europe, such as Oktoberfest, which is in fact the world's largest beer festival and it takes in late September and the first weekend of October.
 
-<img src="./gifs/stpatrick.gif" width=300px height=300px alt="St. Patrick">
+To be sure, we will have a closer look at the trend and the seasonality (including residuals):
 
+![Seasonality](./plots/seasonality.png)
+_When keeping the residuals, the second peak in Europe looks more like a plateau, where North America seems to drop more quickly._
 
-**TODO: make image smaller**
+What could be the reason for the second peak??
+
+<br>
+
+![St. Patrick](./gifs/stpatrick.gif)
+
+<br>
 
 Have you ever heard of St. Patrick's Day?
 
 - It is an Irish traditional holiday, taking place in March.
+
+This might be the reason for the second peak appearing in spring!
+
+Maybe looking at the seasonality of beer styles will help us understand its cause better? -> [Beer style seasonality](/Beer%20style%20seasonality)
+
+To analyse the contributions and phases of the seasonality pattern more, we will further use a Fourier Analysis -> [FT seasonality analysis](/FT%20analysis)
