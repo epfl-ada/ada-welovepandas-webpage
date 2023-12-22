@@ -27,4 +27,4 @@ Another question arises out of curiosity:
 **Is there a correlation between preference and a specific beer style known for higher ABV?**
 
 Let's investigate this question:
-[Beer styles](/Beer%20styles)
+[Beer styles](/ada-welovepandas-webpage/Beer%20styles)
