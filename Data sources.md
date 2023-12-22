@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Data source
+# Data Source
 
 ---
 
@@ -11,9 +11,9 @@ The data we are working with was gathered from the following two websites about 
 - [RateBeer](https://www.ratebeer.com/)
 - [BeerAdvocate](https://www.beeradvocate.com/)
 
-#### From each website we used several datasets:
+### From each website, we used several datasets:
 
-- **users** (_American and European users only!_)
-- **ratings** (_`user_id`, `date`, `abv`, `rating`_)
-- **styles_matching** (_Generalising the `specific` beer style to its `general` style_)
-- **beers** (_`style` and `abv`_)
+- **Users** (_American and European users only!_)
+- **Ratings** (_`user_id`, `date`, `abv`, `rating`_)
+- **Styles Matching** (_Generalizing the `specific` beer style to its `general` style_)
+- **Beers** (_`style` and `abv`_)
